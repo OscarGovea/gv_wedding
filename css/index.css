@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+  }
+.nav-link{
+    font-family: 'Parisienne', sans-serif;
+    font-size: 25px;
+    color: white !important;
+}
+.navbar{
+    background-color:  rgba(0,0,0,0.5);
+}
+.navbar-brand{
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: white !important;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("/img/fondo1.jpg");
+  
+    /* Set a specific height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #mainContainer{
+    height: 400px;
+  }
+  .separator{
+    height: 40px;
+  }
+  .names{
+    font-family: 'Parisienne', cursive;
+    font-size: 65px;
+    border-left: 3px solid brown;
+    padding-left: 10px;
+  }
+  .paragraph{
+      font-family: 'Italianno', cursive;
+      font-size: 29px;
+      padding: 0 20px;
+  }
