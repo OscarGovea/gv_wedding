@@ -16,13 +16,8 @@ body, html {
     color: white !important;
 }
 .parallax { 
-    /* The image used */
-    background-image: url("img/fondo1.jpg");
-  
-    /* Set a specific height */
+    background-image: url("https://lh3.googleusercontent.com/DNln1U_BzyJyu7N5DOlZHt_KqQaScBznRZz65u5cHqZ-Ez9BFUpdjtJZUQj8Ud7V5YoR70-FCGxk_d24XxCQy8OVxdCZgqFOywdrkyPnREIuMjTl90B_tjx_CjTFV05mxkALD3NQjQSpqeSnIHYZfC3_lxKLh7lnjdHZ_ipyXmilwaIyPGHI5seI0iy9eldXLhYkk6NZPGJlM10NEW-BcJyA-iULkKY73e6twJJkam0kW45JR-CTBKsrXLU7Tn_IifFoxMJ7A1pWCa41eYl4AHGaV3Ycs8G8G49zfEBcir0kE-WUUTrbVgzSPNHrGo7ZBh4PljLucQkiOan8fl-vpcG-DciiHBK8q2OMAAHBNf3srSh_cWGncwUmz7xI8Is929cmmlY6b2MM138WKZkV1sxAxuXJpT1kwSF2so7o2HTb1UzQ1WuB0Z3vGE7OQ47pjUSYZso8sba70-V4eLsalRmU4q2YLtbZEpWAKyfgyaE5dp8nGKu51P5YYRiL07sFntU6K3dhZdN-J-Ld2oKI6caAXaFXxztyNOzqoR-ei1LbBaPcaua4iwllJpNl6LVK_nQA0WrBz-5TuCmgpIJ28Bmmvm9c_m9p4tM4xy2U9Vuay-RDFv16ESgCMo4TU7N7vqfRQV6zTFzM3c2LvIZFLiPLPfFwOHg3-5gyMaxYSxd5rYPrNAj-CQ=w1138-h1516-no");
     height: 100%; 
-  
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
