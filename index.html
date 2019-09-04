@@ -10,7 +10,8 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- My CSS files -->
   <link rel="stylesheet" href="css/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Italianno|Parisienne&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css?family=Dancing+Script|Italianno|Parisienne|Petit+Formal+Script&display=swap"
     rel="stylesheet">
 
   <title>#GV Wedding</title>
@@ -28,7 +29,7 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#">Nosotros <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#aNosotros">Nosotros <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Álbum</a>
@@ -44,30 +45,37 @@
   </nav>
 
 
-  <!--Fondo Parallax-->
-  <div class="parallax"></div>
+  <!--Fondo Parallax1-->
+  <div class="parallax1"></div>
 
   <!--Separador-->
   <div class="separator"></div>
 
   <!--Nosotros-->
-  <div id="aNosotros" class="container" id="mainContainer">
-    <div class="row" style="margin-left: 10px;">
-      <div class="col-sm-12 col-md-6" style="margin: 0 0px;">
-        <div class="row names">
+  <div class="container" id="nosotrosContainer">
+
+    <div id="aNosotros" class="row" style="text-align: center !important;">
+      <div class="col-sm-12 subtitle">
+        Nosotros
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <div class="name1">
           Oscar
         </div>
-        <div class="row paragraph">
+        <div class="paragraph">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere, ratione nobis labore culpa, corporis
           distinctio reprehenderit neque soluta earum totam ipsum voluptatibus beatae quos voluptas quis reiciendis
           maxime sit!
         </div>
       </div>
-      <div class="col-sm-12 col-md-6" style="margin: 0 0px;">
-        <div class="row names">
+      <div class="col-sm-12 col-md-6">
+        <div class="name2">
           Lucía
         </div>
-        <div class="row paragraph">
+        <div class="paragraph" style="text-align: right;">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere, ratione nobis labore culpa, corporis
           distinctio reprehenderit neque soluta earum totam ipsum voluptatibus beatae quos voluptas quis reiciendis
           maxime sit!
@@ -76,31 +84,52 @@
     </div>
   </div>
 
+  <!--Separador-->
+  <div class="separator"></div>
+
+  <!--Fondo Parallax2-->
+  <div class="parallax2"></div>
+
+  <!--Separador-->
+  <div class="separator"></div>
+
   <!--Invitados Ingresar Nombre  y Contraseña-->
-  <div class="container">
-    <div class="row" style="margin-left: 10px;">
+  <div class="container" id="invitadosContainer">
+
+    <div class="row" style="text-align: center !important;">
+      <div class="col-sm-12 subtitle">
+        Invitados
+      </div>
+    </div>
+
+    <div class="row">
       <!--Form-->
-      <div class="col-sm-12 col-md-7">
+      <div class="col-sm-12 col-md-6">
         <form>
           <div class="form-group">
-            <label for="exampleInputEmail1">Nombre</label>
+            <label class="textForm" for="exampleInputEmail1">Nombre</label>
             <input type="text" class="form-control" id="txtUser" placeholder="Ingresa tu nombre">
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Contraseña</label>
+            <label class="textForm">Contraseña</label>
             <input type="password" class="form-control" id="txtPassword" placeholder="Ingresa la contraseña">
           </div>
           <button id="btnDownloadInvitacion" type="button" class="btn btn-outline-info">Descargar Invitación</button>
         </form>
       </div>
       <!--QRCode-->
-      <div class="col-sm-12 col-md-5" style="margin-top:10px; text-align: center;">
-        <div id="qrDiv" class="row">
+      <div id="mensajeQR" class="col-sm-12 col-md-3" style="margin-top:20px; text-align: center;">
+        ¡Bienvenido <span id="nombreInvitado"></span>!
+        Guarda este código, es tu pase de entrada a nuestra boda.
+      </div>
+      <div class="col-sm-12 col-md-3" style="margin-top:20px; text-align: center;">
+        <div id="qrDiv" class="">
           <!-- <div id="qrcode"></div> -->
         </div>
       </div>
     </div>
   </div>
+
 
   <!--Separador-->
   <div class="separator"></div>
@@ -117,14 +146,14 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  
+
   <!-- My JS files -->
 
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
   <script src="js/main.js"></script>
   <script src="js/qrcode.min.js"></script>
 
-    
+
 </body>
 
 </html>
