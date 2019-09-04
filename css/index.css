@@ -110,8 +110,3 @@
   font-family: 'Parisienne', sans-serif;
   font-size: 24 px;
 }
-@media only screen and (max-device-width: 1366px) {
-  .parallax1, .parallax2 {
-    background-attachment: scroll;
-  }
-}
