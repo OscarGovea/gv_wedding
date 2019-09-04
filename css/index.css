@@ -4,7 +4,7 @@
     
   }
   .parallax2{
-    background-image: url(https://github.com/OscarGovea/gv_wedding/blob/master/img/logoGV.PNG?raw=true);
+    background-image: url(https://github.com/OscarGovea/gv_wedding/blob/master/img/gvRing.jpg?raw=true);
     height: 50vh;
   }
   .parallax1, .parallax2{
@@ -99,6 +99,9 @@
   border-radius: 2.25rem;
   font-family: 'Parisienne', sans-serif;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#btnDownloadInvitacion:hover {
+  background-color: #16665f;
 }
 #nombreInvitado{
   font-weight: bold;
