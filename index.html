@@ -10,12 +10,12 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- My CSS files -->
   <link rel="stylesheet" href="css/index.css">
-  <link
-    href="https://fonts.googleapis.com/css?family=Dancing+Script|Italianno|Parisienne|Petit+Formal+Script&display=swap"
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Italianno|Parisienne|&display=swap"
     rel="stylesheet">
+  <link href="css/swiper.min.css" rel="stylesheet">
 
   <title>#GV Wedding</title>
-  <!--check this-->
+  <!--For Link Preview-->
   <meta name="description" content="Invitación Boda O&L">
   <meta property="og:title" content="Invitación O&L" />
   <meta property="og:url" content="http://gvboda.com/" />
@@ -37,13 +37,19 @@
           <a class="nav-link" href="#aNosotros">Nosotros <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Álbum</a>
+          <a class="nav-link" href="#">Galería</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Regalos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Invitados</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cómo llegar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
         </li>
       </ul>
     </div>
@@ -98,15 +104,48 @@
   <!--Separador-->
   <div class="separator"></div>
 
+  <!--Galeria-->
+  <div class="container">
+    <div class="row" style="text-align: center !important;">
+      <div class="col-sm-12 subtitle">
+        Galeria
+      </div>
+    </div>
+  </div>
+
+  <!-- Swiper -->
+  <div style="margin-top: 10px;" class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img class="spImg" src="img/LuzMountain.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="spImg" src="img/OscarMountain.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="spImg" src="img/gvRing.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="spImg" src="img/fondoCad.jpg" alt="">
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <!--Separador-->
+  <div class="separator"></div>
+
   <!--Invitados Ingresar Nombre  y Contraseña-->
   <div class="container" id="invitadosContainer">
-
     <div class="row" style="text-align: center !important;">
       <div class="col-sm-12 subtitle">
         Invitados
       </div>
     </div>
-
     <div class="row">
       <!--Form-->
       <div class="col-sm-12 col-md-6">
@@ -135,10 +174,57 @@
     </div>
   </div>
 
+  <!--Separador-->
+  <div class="separator"></div>
+
+  <!--Fondo Parallax3-->
+  <div class="parallax3"></div>
+
+  <!--Separador-->
+  <div class="separator"></div>
+  
+  <div class="container" style="text-align: center !important;">
+    <div class="row" style="text-align: center !important;">
+      <div class="col-sm-12 subtitle">
+        Cómo llegar
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <iframe id="iMap"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4983.28367441074!2d-101.33423290839818!3d20.640489217078414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842c80a3580aab33%3A0x4444865a31c3cd04!2sCasa%20de%20Adobe%20-%20Jard%C3%ADn%20%26%20Eventos!5e0!3m2!1ses-419!2smx!4v1567706658444!5m2!1ses-419!2smx"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+  </div>
 
   <!--Separador-->
   <div class="separator"></div>
 
+  <!--Contacto-->
+  <div class="container">
+    <div class="row" style="text-align: center !important;">
+      <div class="col-sm-12 subtitle">
+        Contacto
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12" style="text-align: center;">
+        <a id="linkWA"
+          href="https://api.whatsapp.com/send?phone=524621101980&text=Hola%2C%20tengo%20una%20duda%20acerca%20de%20su%20boda"
+          target="_blank">
+          <p id="msgWA">Si tienes alguna duda, enviame un mensaje</p>
+          <img src="/img/whatsappIcon.jpg" width="35px" height="35px" alt="">
+        </a>
+      </div>
+    </div>
+    <div class="row" alt="WhatsApp">
+    </div>
+  </div>
+
+  <!--Separador-->
+  <div class="separator"></div>
+
+  <!--Separador-->
+  <div class="separator"></div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -153,10 +239,10 @@
     crossorigin="anonymous"></script>
 
   <!-- My JS files -->
-
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
   <script src="js/main.js"></script>
   <script src="js/qrcode.min.js"></script>
+  <script src="js/swiper.min.js"></script>
 
 
 </body>

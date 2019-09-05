@@ -1,4 +1,22 @@
 $(document).ready(function () {
+    
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+
     $("#mensajeQR").hide();
     //Invitados
     var lstInvitados =
@@ -61,7 +79,7 @@ $(document).ready(function () {
                 'Intenta Nuevamente!',
                 'Probablemente no estes invitado',
                 'error'
-            )
+            );
             $("#mensajeQR").hide();
             $("#txtUser").val("");
             $("#txtPassword").val("");
