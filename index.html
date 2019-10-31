@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="css/index.css">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Italianno|Parisienne|&display=swap"
     rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">  
   <link href="css/swiper.min.css" rel="stylesheet">
 
   <title>#GV Wedding</title>
@@ -37,19 +38,19 @@
           <a class="nav-link" href="#aNosotros">Nosotros <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Galería</a>
+          <a class="nav-link" href="#aGaleria">Momentos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Regalos</a>
+          <a class="nav-link" href="#aRegalos">Regalos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Invitados</a>
+          <a class="nav-link" href="#invitadosContainer">Invitados</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Cómo llegar</a>
+          <a class="nav-link" href="#aComoLlegar">Cómo llegar</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
+          <a class="nav-link" href="#aContacto">Contacto</a>
         </li>
       </ul>
     </div>
@@ -87,10 +88,8 @@
           Lucía
         </div>
         <div class="paragraph" style="text-align: right;">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, facere, ratione nobis labore culpa, corporis
-          distinctio reprehenderit neque soluta earum totam ipsum voluptatibus beatae quos voluptas quis reiciendis
-          maxime sit!
-        </div>
+          <span style="font-weight: 600; color:grey;">"Forget your past and simply be mine <i style="font-size: 12px;" class="fa fa-music" aria-hidden="true"></i>"</span> fue lo primero que te dije cuando supe todo lo que sentía por tí. Hoy después de 5 años no encuentro palabras para expresar lo felíz que soy contigo y saber que nuestra historia continuará para siempre me hace sentir la persona más afortunada del mundo. Teamo Govea <i style="font-size: 12px;" class="fa fa-heart" aria-hidden="true"></i>
+        </div>  
       </div>
     </div>
   </div>
@@ -105,22 +104,34 @@
   <div class="separator"></div>
 
   <!--Galeria-->
-  <div class="container">
+  <div id="aGaleria" class="container">
     <div class="row" style="text-align: center !important;">
       <div class="col-sm-12 subtitle">
-        Galeria
+        Momentos
       </div>
     </div>
   </div>
 
   <!-- Swiper -->
-  <div style="margin-top: 10px;" class="swiper-container">
+  <div style="margin-top: 5px;" class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img class="spImg" src="img/LuzMountain.jpg" alt="">
+        <img class="spImg" src="img/gv2.jpg" style="width: 100% !important;" alt="">
       </div>
       <div class="swiper-slide">
-        <img class="spImg" src="img/OscarMountain.jpg" alt="">
+        <img class="spImg" src="img/gv3.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="spImg" src="img/gv7.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="spImg" src="img/gv8.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="spImg" src="img/gv9.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="spImg" src="img/gv11.jpg" alt="">
       </div>
       <div class="swiper-slide">
         <img class="spImg" src="img/gvRing.jpg" alt="">
@@ -135,6 +146,27 @@
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
   </div>
+
+  <!--Separador-->
+  <div class="separator"></div>
+
+  <!--Regalos-->
+  <div class="container" id="aRegalos">
+    <div class="row" style="text-align: center !important;">
+      <div class="col-sm-12 subtitle">
+        Regalos
+      </div>
+    </div>
+    <div class="parrafoRegalos">
+      Tu presencia es muy especial, pero si algo nos deseas obsequiar lo sabremos apreciar. Visita nuestra mesa de regalos en <span style="color:hotpink;">Liverpool</span>.<br>
+      <div style="font-weight: bold">
+        Evento: Boda GV<br>
+        Número de evento: 50270785<br><br>
+      </div>
+      Ya tenemos pensado el Ferrari, la mansión y un velero. Ahora lo único que nos hace falta es el dinero, la contribución que nos brinden será de gran utilidad. La cuenta de ahorros es <b>4152 3133 5576 1235</b>, aceptamos spei y/o efectivo. 
+    </div>
+  </div>
+
 
   <!--Separador-->
   <div class="separator"></div>
@@ -164,7 +196,7 @@
       <!--QRCode-->
       <div id="mensajeQR" class="col-sm-12 col-md-3" style="margin-top:20px; text-align: center;">
         ¡Bienvenido <span id="nombreInvitado"></span>!
-        Guarda este código, es tu pase de entrada a nuestra boda.
+        Guarda el código, es tu pase de entrada a nuestra boda.
       </div>
       <div class="col-sm-12 col-md-3" style="margin-top:20px; text-align: center;">
         <div id="qrDiv" class="">
@@ -183,7 +215,7 @@
   <!--Separador-->
   <div class="separator"></div>
   
-  <div class="container" style="text-align: center !important;">
+  <div id="aComoLlegar" class="container" style="text-align: center !important;">
     <div class="row" style="text-align: center !important;">
       <div class="col-sm-12 subtitle">
         Cómo llegar
@@ -200,7 +232,7 @@
   <div class="separator"></div>
 
   <!--Contacto-->
-  <div class="container">
+  <div id="aContacto" class="container">
     <div class="row" style="text-align: center !important;">
       <div class="col-sm-12 subtitle">
         Contacto
@@ -211,7 +243,7 @@
         <a id="linkWA"
           href="https://api.whatsapp.com/send?phone=524621101980&text=Hola%2C%20tengo%20una%20duda%20acerca%20de%20su%20boda"
           target="_blank">
-          <p id="msgWA">Si tienes alguna duda, enviame un mensaje</p>
+          <p id="msgWA">Si tienes alguna duda, envíame un mensaje</p>
           <img src="/img/whatsappIcon.jpg" width="35px" height="35px" alt="">
         </a>
       </div>
