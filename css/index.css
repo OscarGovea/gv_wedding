@@ -148,8 +148,20 @@ justify-content: center;
 align-items: center;
 }
 .parrafoRegalos{
-font-family: 'Parisienne', sans-serif;
-font-size: 22.5px
+  font-family: 'Parisienne', sans-serif;
+  font-size: 22.5px
+}
+#clock{
+  text-align: center;
+  font-family: 'Parisienne', sans-serif;
+  font-size: 30px
+}
+.clockEl{
+  color:brown;
+  font-weight: bold;
+}
+.borderBottom{
+  border-top: 1px solid #16665f;
 }
 .spImg{
 width: 100%;
