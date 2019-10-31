@@ -161,7 +161,7 @@ align-items: center;
   font-weight: bold;
 }
 .borderBottom{
-  border-top: 1px solid #16665f;
+  border-bottom: 1px solid #16665f;
 }
 .spImg{
 width: 100%;
